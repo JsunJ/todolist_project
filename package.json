@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "express": "4",
+    "http-errors": "1",
+    "morgan": "1.9"
+  },
+  "name": "todolist",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "foo": "echo 'How do you do?'",
+    "babel": "babel lib --out-dir dist --presets=@babel/preset-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JsunJ/todolist_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JsunJ/todolist_project/issues"
+  },
+  "homepage": "https://github.com/JsunJ/todolist_project#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "eslint": "^8.16.0"
+  }
+}
